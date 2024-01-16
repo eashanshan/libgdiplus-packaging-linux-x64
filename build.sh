@@ -22,8 +22,8 @@ LIBGDIPLUS_VERSION=`brew list --versions | grep libgdiplus | awk -F' ' '{ print 
 LIBGDIPLUS_VERSION=`echo "$LIBGDIPLUS_VERSION" | sed -r 's/[_]+/./g'`
 PATCH_NUMBER="4"
 
-NUGET_PREFIX="ereno.linux-x64"
-cd $NUGET_PREFIX.eugeneereno.System.Drawing
+NUGET_PREFIX="eashanshan.linux-arm64"
+cd $NUGET_PREFIX.System.Drawing
 
 OUT=$(pwd)/out/usr/local/lib
 rm -rf $OUT

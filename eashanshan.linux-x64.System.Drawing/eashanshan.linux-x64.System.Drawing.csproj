@@ -4,7 +4,7 @@
     <TargetFrameworks>net6.0;net48</TargetFrameworks>
     <Title>Linux Native libraries for System.Drawing.Common</Title>
     <Description>Allows you to use System.Drawing.Common on Linux</Description>
-    <PackageProjectUrl>https://github.com/eugeneereno/libgdiplus-packaging</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/eashanshan/libgdiplus-packaging-linux-x64</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
     <Copyright>Mono</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
