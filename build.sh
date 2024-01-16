@@ -21,7 +21,7 @@ sudo apt install patchelf
 
 VERSION='6.1.0'
 
-NUGET_PREFIX="eashanshan.linux-arm64"
+NUGET_PREFIX="eashanshan.linux-x64"
 cd $NUGET_PREFIX.System.Drawing 
 
 OUT=$(pwd)/out/usr/local/lib
