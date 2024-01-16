@@ -64,8 +64,3 @@ if [[ $* == *--pack* ]]; then
   echo " --- :dotnet: Packing ${NUGET_PREFIX}.${VERSION} ..."
   dotnet pack -c Release -p:Version=${VERSION} -o ./bin/
 fi
-
-if [[ $* == *--pack* ]]; then
-  echo " --- :dotnet: Packing ${NUGET_PREFIX}.${VERSION} ..."
-  dotnet pack -c Release -p:Version=${VERSION} -o ./bin/
-fi
